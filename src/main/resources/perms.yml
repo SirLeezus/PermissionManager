@@ -1,0 +1,8 @@
+ranks:
+  default:
+    - test.test.test
+    - test.test.test
+groups:
+  default:
+    - yes.yes.yes
+    - yes.yes.yes

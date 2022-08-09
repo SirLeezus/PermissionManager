@@ -1,0 +1,19 @@
+name: PermissionManager
+main: lee.code.permissions.Permissions
+version: ${project.version}
+api-version: 1.19
+author: Lee
+depend: [GoldmanCore]
+commands:
+  removeperm:
+    description: Removes a permission from a player.
+    permission: permissions.command.removeperm
+    usage: "/removeperm &f<player> <perm>"
+  addperm:
+    description: Adds a permission to a player.
+    permission: permissions.command.addperm
+    usage: "/addperm &f<player> <perm>"
+  setrank:
+    description: Sets a player's rank.
+    permission: permissions.command.setrank
+    usage: "/setrank &f<player> <rank>"
