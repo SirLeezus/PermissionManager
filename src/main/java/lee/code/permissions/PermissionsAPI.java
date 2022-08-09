@@ -16,7 +16,7 @@ public class PermissionsAPI {
         if (plugin.getData().getRanks().contains(rank)) {
             plugin.getCacheManager().setRank(player.getUniqueId(), rank);
             plugin.getPermissionManager().register(player);
-        }
+        } else Bukkit.getLogger().log(Level.WARNING, Lang.PREFIX.getString(null) + BukkitUtils.parseColorString("&cThe rank &6" + rank + " &cis not a rank in the perms.yml!"));
     }
 
     public static void setRank(UUID uuid, String rank) {

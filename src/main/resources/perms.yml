@@ -1,8 +1,14 @@
 ranks:
-  default:
-    - test.test.test
-    - test.test.test
-groups:
-  default:
-    - yes.yes.yes
-    - yes.yes.yes
+  DEFAULT:
+    - bukkit.command.tps
+    - bukkit.command.ping
+  VIP:
+    - rank.is.vip
+  MVP:
+    - rank.is.mvp
+  ELITE:
+    - rank.is.elite
+  MOD:
+    - rank.is.mod
+  ADMIN:
+    - rank.is.admin
